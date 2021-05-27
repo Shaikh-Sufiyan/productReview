@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(senti.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif; 
+}
+
+.box{
+	width: 320px;
+	height: 360px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.emoji{
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 35%;
+
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+.box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.box input[type="text"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+
+.box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Frames</title>
+   </head>
+	
+   <frameset rows = "50%,50%">
+   	<frameset cols = "50%,50%">
+      <frame name = "top" src = "{{url_for('static', filename='p1.png')}}" />
+      <frame name = "main" src = "{{url_for('static', filename='p2.png')}}" />
+</frameset>
+      <frameset cols = "50%,50%">
+      <frame name = "bottom" src = "{{url_for('static', filename='p3.png')}}" />
+      <frame name = "bottom" src = "{{url_for('static', filename='p4.png')}}" />
+      
+   </frameset>
+      
+   </frameset>
+   
+</html>

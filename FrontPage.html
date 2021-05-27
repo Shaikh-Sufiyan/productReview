@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>SENTIMENT ANALYSIS</title>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+
+</head>
+<body>
+	<div class="box">
+		<img src="{{url_for('static', filename='emoji.jpg')}}" class="emoji">
+		<h1>Analyse Here</h1>
+		<form name="passdata" action="/hi" method="post">
+			<p>Product Url</p>
+			<input type="text" name="name" placeholder="Enter your here">
+			<input type="submit" name="Analyse" value="Analyse">
+		</form>
+		
+	</div>
+
+</body>
+
+</html>
